@@ -24,12 +24,6 @@ class PrintEditionItem {
 		}
 	}
 
-	// Тернарный вариант
-	/*set state(newState) {
-	    this._state = newState < 0 ? 0 : (newState > 100 ? 100 : newState);
-	}
-	*/
-
 	get state() {
 		return this._state;
 	}
